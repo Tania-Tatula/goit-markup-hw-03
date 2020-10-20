@@ -1,0 +1,228 @@
+/* raleway-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v18-latin_cyrillic-700.eot'); 
+    src: local(''),
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.woff') format('woff'), 
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.ttf') format('truetype'),
+         url('../fonts/raleway/raleway-v18-latin_cyrillic-700.svg#Raleway') format('svg');
+  }
+
+
+:root {
+    --primari-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --title-page-color: #FFFFFF;
+    --bg-color: #E5E5E5;
+    --bg-dark-color: #2F303A;
+    --bg-color-blu: #F5F4FA;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+    background-color: var(--bg-color); 
+    width: 100%;
+
+}
+
+.list {
+    list-style: none;
+}
+
+/* стилі для всіх ссилок */
+.link,
+.link-hf {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus { 
+    color: var(--accent-color);
+}
+ 
+
+ /* стилі для кнопок */
+ .btn {
+    
+    font-family: inherit;
+    font-size: 16px;
+    text-align: center;
+ }
+
+ .btn-studia {
+    font-weight: 700;
+    line-height:1.87;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: var(--title-page-color);
+    background-color: var(--accent-color);
+    border: none;
+ }
+
+ .btn-portfolio {
+    font-weight: 500;
+    line-height:1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color:#F5F4FA;
+    border: none;
+ }
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: var(--accent-color);
+    color: var(--title-page-color);
+}
+
+ 
+ /* стилі для лого*/
+ .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,192;
+    letter-spacing: 0.03em;
+}
+.logo-color {
+    color: var(--accent-color);
+}
+
+.logo-color-header {
+    color: var(--title-text-color);
+}
+
+.logo-color-footer {
+    color: var(--title-page-color);
+}
+
+
+ /* стилі для меню */
+.menu-link,
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.contacts {
+    color: var(--primari-text-color);
+}
+
+/* стилі для всіх заголовків  */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+}
+
+
+
+.section-title-mini {
+    font-size: 16px;
+    line-height: 1.187;
+    font-weight: 500;
+    text-align: center;
+    color: var(--title-text-color);
+    
+}
+
+
+.section-title-caps {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14x;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    
+}
+
+
+ .page-title {
+    color: var(--title-page-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;   
+ }
+
+ .title-progect {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+/* стилі для тексту */
+.paragraf {
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+}
+
+.paragraf-ptf {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    }
+
+.address-color {
+    color: var(--title-page-color);
+}
+
+.mt-color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address {
+    font-style: normal;
+}
+
+
+/* стилі для фону */
+.bg-color-dark {
+    background-color: var(--bg-dark-color);
+}
+
+.bg-color-white {
+    background: var(--title-page-color);
+}
+
+.bg-color-blu {
+    background: var(--bg-color-blu);
+}
+
+
+/* довжина сторінки */
+
+
+
+
+
+
