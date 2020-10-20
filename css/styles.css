@@ -58,6 +58,7 @@ body {
     font-family: inherit;
     font-size: 16px;
     text-align: center;
+    border-radius: 4px;
  }
 
  .btn-studia {
@@ -69,6 +70,11 @@ body {
     color: var(--title-page-color);
     background-color: var(--accent-color);
     border: none;
+    padding: 10px 32px;
+    min-width: 200px;
+    text-align: center;
+    
+   /* margin: 350px 700px 200px 700px; */
  }
 
  .btn-portfolio {
@@ -78,6 +84,10 @@ body {
     color: var(--title-text-color);
     background-color:#F5F4FA;
     border: none;
+    padding: 6px 22px;
+    min-width: 73px;
+    text-align: center;
+
  }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -163,7 +173,9 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+    margin: 0;
+    padding: 0;
  }
 
  .title-progect {
@@ -208,6 +220,12 @@ address {
 /* стилі для фону */
 .bg-color-dark {
     background-color: var(--bg-dark-color);
+    height: 600px;
+    width: 1600px;
+    padding-left: 0px;
+    padding-top: 80px;
+    border-radius: [object Object]px;
+
 }
 
 .bg-color-white {
@@ -219,7 +237,11 @@ address {
 }
 
 
-/* довжина сторінки */
+/* геометрыя сторынки */
+
+.container {
+   
+}
 
 
 
