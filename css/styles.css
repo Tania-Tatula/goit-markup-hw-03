@@ -23,6 +23,10 @@
     --bg-color-blu: #F5F4FA;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -31,12 +35,34 @@ body {
     letter-spacing: 0.03em;
     color: var(--primari-text-color);
     background-color: var(--bg-color); 
-    width: 100%;
+}
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+h1, 
+h2, 
+h3, 
+p {
+    margin: 0;
+    padding: 0;
 }
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* стилі для всіх ссилок */
@@ -44,6 +70,10 @@ body {
 .link-hf {
     color: inherit;
     text-decoration: none;
+}
+
+.link-hf {
+    width: 145px;
 }
 
 .link:hover,
@@ -54,21 +84,26 @@ body {
 
  /* стилі для кнопок */
  .btn {
-    
+    display: inline-block;
     font-family: inherit;
     font-size: 16px;
     text-align: center;
+    border-radius: 4px;
  }
 
  .btn-studia {
-    font-weight: 700;
-    line-height:1.87;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: var(--title-page-color);
-    background-color: var(--accent-color);
-    border: none;
+     display: flex;
+     margin: auto;
+     font-weight: 700;
+     line-height:1.87;
+     align-items: center;
+     letter-spacing: 0.06em;
+     color: var(--title-page-color);
+     background-color: var(--accent-color);
+     border: none;
+      padding: 10px 32px;
+      min-width: 200px;
+
  }
 
  .btn-portfolio {
@@ -78,6 +113,7 @@ body {
     color: var(--title-text-color);
     background-color:#F5F4FA;
     border: none;
+    padding: 6px 22px;
  }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -132,6 +168,8 @@ body {
     font-size: 36px;
     line-height: 1.66;
     text-align: center;
+    margin-bottom: 50px;
+    
 }
 
 
@@ -152,6 +190,8 @@ body {
     line-height: 1.14x;
     text-transform: uppercase;
     color: var(--title-text-color);
+
+    margin-bottom: 10px;
     
 }
 
@@ -164,6 +204,8 @@ body {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;   
+
+    margin-bottom: 30px;
  }
 
  .title-progect {
@@ -208,10 +250,13 @@ address {
 /* стилі для фону */
 .bg-color-dark {
     background-color: var(--bg-dark-color);
+    height: 600px;
+    
 }
 
 .bg-color-white {
     background: var(--title-page-color);
+    margin-top: 24px;
 }
 
 .bg-color-blu {
@@ -219,10 +264,56 @@ address {
 }
 
 
-/* довжина сторінки */
+/* геометрія сторінки */
+.menu {
+    display: inline-flex;
 
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
+.menu-item:not(:last-child) {
+    padding-right: 50px;
+}
 
+.header-container {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.heder-logo {
+    margin-right: 93px;
+    align-items: center;
+}
+
+.navigation {
+    margin-right: auto;
+}
+
+.hero-content {
+    display: inline-block;
+    width: 696px;
+    margin: 200px 452px;
+
+}
+
+.section {
+    margin-bottom: 94px;
+}
+ /* флексбокси у решти контейнерыв */
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.content-box {
+    width: calc((100% - 30px) / 4);
+}
+
+.benefits {
+    margin-top: 85px;
+}
 
 
 
