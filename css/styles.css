@@ -73,7 +73,8 @@ p {
 }
 
 .link-hf {
-    width: 145px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .link:hover,
@@ -169,7 +170,7 @@ p {
     line-height: 1.66;
     text-align: center;
     margin-bottom: 50px;
-    
+
 }
 
 
@@ -221,6 +222,7 @@ p {
     font-size: 16px;
     line-height: 1.187;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .paragraf-ptf {
@@ -232,6 +234,9 @@ p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    margin-top: 0;
+    margin-bottom: 9px;
+    bottom: 0;
     }
 
 .address-color {
@@ -248,10 +253,17 @@ address {
 
 
 /* стилі для фону */
+.bg-color-dark,
+.bg-color-dark-footer{
+    background-color: var(--bg-dark-color); 
+}
 .bg-color-dark {
-    background-color: var(--bg-dark-color);
     height: 600px;
-    
+}
+
+.footer-container {
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .bg-color-white {
@@ -261,6 +273,8 @@ address {
 
 .bg-color-blu {
     background: var(--bg-color-blu);
+    padding-top: 94px;
+
 }
 
 
@@ -299,7 +313,7 @@ address {
 }
 
 .section {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
  /* флексбокси у решти контейнерыв */
 .flexbox {
@@ -309,11 +323,50 @@ address {
 }
 .content-box {
     width: calc((100% - 30px) / 4);
+    flex-basis: 270px;
 }
 
 .benefits {
     margin-top: 85px;
 }
 
+/* стилы для блокыв з картинками */
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
 
+.work-item {
+    flex-basis: calc(100% / 3 - 30px);
+}
+
+.fleximg {
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.workers {
+    flex-basis: calc(100% / 4 - 30px);
+}
+
+
+/* приховуэ елементи */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+  
+  .workers-text {
+      margin-top: 30px;
+      margin-bottom: 10px;
+  }
 
