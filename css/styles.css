@@ -23,6 +23,7 @@
     --bg-color-blu: #F5F4FA;
 }
 
+
 html {
     box-sizing: border-box;
 }
@@ -67,7 +68,8 @@ p {
 
 /* стилі для всіх ссилок */
 .link,
-.link-hf {
+.link-hf,
+.heder-logo {
     color: inherit;
     text-decoration: none;
 }
@@ -277,6 +279,11 @@ address {
 
 }
 
+.header-container {
+    height: 80px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #ECECEC;
+}
 
 /* геометрія сторінки */
 .menu {
@@ -297,8 +304,10 @@ address {
 }
 
 .heder-logo {
+    display: inline-block;
     margin-right: 93px;
     align-items: center;
+
 }
 
 .navigation {
@@ -308,7 +317,7 @@ address {
 .hero-content {
     display: inline-block;
     width: 696px;
-    margin: 200px 452px;
+    margin: 200px 276px;
 
 }
 
@@ -353,7 +362,7 @@ address {
 }
 
 
-/* приховуэ елементи */
+/* приховує елементи */
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -369,4 +378,22 @@ address {
       margin-top: 30px;
       margin-bottom: 10px;
   }
+
+  /* флекси портфоліо */
+.menu-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu-portfolio-item:not(:last-child) {
+    padding-right: 9px;
+}
+
+.portfolio-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--title-page-color);
+}
 
