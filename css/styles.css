@@ -46,7 +46,6 @@ body {
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: aqua;
 }
 
 img {
@@ -216,6 +215,7 @@ p {
     text-transform: uppercase;   
 
     margin-bottom: 30px;
+    margin-top: auto;
  }
 
  .title-progect {
@@ -268,7 +268,7 @@ address {
 }
 .bg-color-dark {
     min-height: 600px;
-    min-width: 100%;
+    
     
 }
 
@@ -290,18 +290,14 @@ address {
 
 }
 
- /* .header-container {
-    /* min-height: 80px;
-    margin-bottom: 9px; */
-    /* border-bottom: 1px solid #ECECEC;} */
+
 
 
 /* геометрія сторінки */
 .menu {
     display: flex;
 
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
+
 }
 
 .menu-item:not(:last-child) {
@@ -311,6 +307,7 @@ address {
 .header-container {
     display: flex;
     align-items: center;
+    
     
 }
 
@@ -327,9 +324,8 @@ address {
 
 .hero-content {
     width: 696px;
-    
-    /* margin-top: 200px;  */
-   
+
+
 }
 
 .nav {margin-bottom: 9px;}
@@ -341,7 +337,7 @@ address {
 .flexbox {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+   
     
 }
 .content-box {
@@ -364,16 +360,6 @@ address {
 }
 
 /* стилы для блокыв з картинками */
-/* .work {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-} */
-
-/* .work-item {
-    flex-basis: calc(100% / 3 - 30px);
-} */
 
 .fleximg {
     flex-basis: 370px;
@@ -390,9 +376,7 @@ address {
     margin-bottom: 0;
   }
 
-/* .workers {
-    flex-basis: calc(100% / 4 - 30px);
-} */
+
 
 
 
